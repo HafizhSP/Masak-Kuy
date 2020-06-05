@@ -39,7 +39,7 @@ public class bahansayur_suggestion extends AppCompatActivity {
                     "Sop Wortel","Nugget Wortel","Wortel Goreng","Kroket Wortel","Tumis Wortel"
             };
             desc_sayur = new String[]{
-                    "Sop Wortel Desc","Nugget Wortel Desc","Wortel Goreng Desc","Kroket Wortel Desc","Tumis Wortel Desc"
+                    "Sop Wortel Dengan Rasa Terbaik","Nugget Isi Wortel Enak","Wortel Goreng Renyah Enak","Kroket Wortel Desc","Tumis Wortel Saus Tiram Enak"
             };
             img_sayur = new String[]{
                     Integer.toString(R.drawable.sop_wortel),Integer.toString(R.drawable.nugget_wortel),Integer.toString(R.drawable.wortel_goreng),
@@ -50,7 +50,7 @@ public class bahansayur_suggestion extends AppCompatActivity {
                     "Oseng Oseng Jagung"
             };
             desc_sayur = new String[]{
-                    "Oseng Oseng Jagung Desc"
+                    "Oseng Oseng Jagung Pedas Gurih"
             };
             img_sayur = new String[]{
                     Integer.toString(R.drawable.oseng_oseng_jagung)
@@ -60,7 +60,7 @@ public class bahansayur_suggestion extends AppCompatActivity {
                     "Tumis Sawi"
             };
             desc_sayur = new String[]{
-                    "Tumis Sawi Desc"
+                    "Tumis Sawi Hijau Enak dan Praktis"
             };
             img_sayur = new String[]{
                     Integer.toString(R.drawable.tumis_sawi)
@@ -70,7 +70,7 @@ public class bahansayur_suggestion extends AppCompatActivity {
                     "Cah Brokoli"
             };
             desc_sayur = new String[]{
-                    "Cah Brokoli Desc"
+                    "Cah Brokoli Plus Bawang Putih,Enak dan Sederhana "
             };
             img_sayur = new String[]{
                     Integer.toString(R.drawable.cah_brokoli)
@@ -80,7 +80,7 @@ public class bahansayur_suggestion extends AppCompatActivity {
                     "Cah Kangkung"
             };
             desc_sayur = new String[]{
-                    "Cah Kangkung Desc"
+                    "Cah Kangkung Saus Tiram Enakk"
             };
             img_sayur = new String[]{
                     Integer.toString(R.drawable.cah_kangkung)
@@ -90,7 +90,7 @@ public class bahansayur_suggestion extends AppCompatActivity {
                     "Tumis Bayam Tomat"
             };
             desc_sayur = new String[]{
-                    "Tumis Bayam Tomat Desc"
+                    "Tumis Bayam Tomat Enak dan Sederhana"
             };
             img_sayur = new String[]{
                     Integer.toString(R.drawable.tumis_bayam_tomat)
@@ -100,7 +100,7 @@ public class bahansayur_suggestion extends AppCompatActivity {
                     "Tumis Jamur"
             };
             desc_sayur = new String[]{
-                    "Tumis Jamur Desc"
+                    "Tumis Jamur Lezat dan Mudah Dibuat"
             };
             img_sayur = new String[]{
                     Integer.toString(R.drawable.tumis_jamur)
@@ -110,7 +110,7 @@ public class bahansayur_suggestion extends AppCompatActivity {
                     "Balado Terung"
             };
             desc_sayur = new String[]{
-                    "Balado Terung Desc"
+                    "Balado Terung Ungu,Pedas dan Lezat"
             };
             img_sayur = new String[]{
                     Integer.toString(R.drawable.balado_terong)
