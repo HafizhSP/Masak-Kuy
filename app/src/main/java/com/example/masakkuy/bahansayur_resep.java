@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class bahansayur_resep extends AppCompatActivity {
 
-    TextView namaResep, bahanResep, caraResep;
+    TextView namaResep, bahanResep, caraResep, penjelasanSayur;
     ImageView imgResep;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +18,7 @@ public class bahansayur_resep extends AppCompatActivity {
         namaResep = (TextView)findViewById(R.id.namaResep_sayur);
         bahanResep = (TextView)findViewById(R.id.bahanResep_sayur);
         caraResep = (TextView)findViewById(R.id.caraResep_sayur);
+        penjelasanSayur = (TextView)findViewById(R.id.penjelasan_sayur);
         imgResep = (ImageView) findViewById(R.id.imgResep_sayur);
 
         String pilihanResep = getIntent().getStringExtra("Nama");
@@ -27,10 +28,12 @@ public class bahansayur_resep extends AppCompatActivity {
         if (pilihanResep.equalsIgnoreCase("Sop Wortel")){
             bahanResep.setText("-1 buah wortel ukuran sedang \n-1 batang bawang daun \n-1 buah tomat kecil \n-1 siung bawang putih \n-2 siung bawang merah \n-3 buah cabai rawit");
             caraResep.setText("1. Cuci wortel, kentang, kol, lalu potong sesuai selera. \n2. Iris tipis bawang putih, bawang merah, bawang daun, seledri, tomat dan cabai.\n3. Tumis bawang merah, dan bawang putih sampai harum, lalu masukan air.\n4.Biarkan hingga mendidih lalu masukan wortel, cabai, dan kol.\n5. Beri garam, merica, dan kaldu sesuai selera, tes rasa dan kematangan kemudian sajikan. ");
+            penjelasanSayur.setText("Isine penjelasan lauk mas. Copast yo di isi kanggo kabeh if");
             imgResep.setImageResource(R.drawable.sop_wortel);
         } else if (pilihanResep.equalsIgnoreCase("Nugget Wortel")){
             bahanResep.setText("-1,5 ons wortel\n-1 ons daging ayam giling\n-1/2 sdt merica bubuk\n-1/2 sdt kaldu ayam bubuk\n-1 butir telur\n-2 siung bawang putih");
             caraResep.setText("1. Campurkan ikan tengiri, ayam dan tepung sagu. Aduk rata.\n2. Masukkan sisa bahan kecuali tepung panir, aduk rata.\n3. Kukus adonan selama 30 menit.\n4. Biarkan adonan dingin, potong-potong sesuai selera.\n5. Celupkan pada air sebentar lalu gulingkan di atas tepung panir. \n6. Goreng dengan api kecil hingga berwarna keemasan. ");
+            penjelasanSayur.setText("Isine penjelasan lauk mas. Copast yo di isi kanggo kabeh if");
             imgResep.setImageResource(R.drawable.nugget_wortel);
         } else if (pilihanResep.equalsIgnoreCase("Wortel Goreng")){
             bahanResep.setText("-300 gram wortel \n-1/2 sendok teh ketumbar \n-1/2 liter air putih\n-30 gram tepung beras\n-30 gram tepung sagu\n-300 gram tepung terigu");

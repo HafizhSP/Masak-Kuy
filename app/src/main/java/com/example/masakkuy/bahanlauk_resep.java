@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class bahanlauk_resep extends AppCompatActivity {
 
-    TextView namaResep, bahanResep, caraResep;
+    TextView namaResep, bahanResep, caraResep, penjelasanLauk;
     ImageView imgResep;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +18,7 @@ public class bahanlauk_resep extends AppCompatActivity {
         namaResep = (TextView)findViewById(R.id.namaResep_lauk);
         bahanResep = (TextView)findViewById(R.id.bahanResep_lauk);
         caraResep = (TextView)findViewById(R.id.caraResep_lauk);
+        penjelasanLauk = (TextView)findViewById(R.id.penjelasan_lauk);
         imgResep = (ImageView) findViewById(R.id.imgResep_lauk);
 
         String pilihanResep = getIntent().getStringExtra("Nama");
@@ -27,10 +28,12 @@ public class bahanlauk_resep extends AppCompatActivity {
         if (pilihanResep.equalsIgnoreCase("Ayam Kecap")){
             bahanResep.setText("-Ayam 500gr \n-Bawang Merah 5 \n-Bawang Putih 3 \n-Jahe Geprek \n-Lada bubuk 1 sdt \n-Cabe rawit 5 \n-Kecap Manis 100ml \n-Air 300ml \n-Minyak goreng \n-Penyedak rasa");
             caraResep.setText("1. Siapkan air mendidih, masukan ayam yang sudah dibersihkan. \n2. Panaskan minyak, tumis bawang merah dan putih serta jahe sampai harum.\n3. Masukan ayam, di koleh koleh sampai berubah warna, masukan cabe, kecap dan air.\n4. Tambahkan lada dan garam, penyedap rasa. Aduk merata biarkan sampai air berkurang.\n5. Siap disajikan. ");
+            penjelasanLauk.setText("Isine penjelasan lauk mas. Copast yo di isi kanggo kabeh if");
             imgResep.setImageResource(R.drawable.ayamkecap);
         } else if (pilihanResep.equalsIgnoreCase("Ayam Suwir Pedas")){
             bahanResep.setText("-Ayam bagian dada 1 potong\n-Daun salam 2\n-Daun jeruk 5\n-garam dan gula secukupnya\n-Air rebusan ayam 40ml\n-Cabe rawit keriting 6\n-cabe rawit merah 5\n-bawang merah 5\n-bawang putih 4");
             caraResep.setText("1. Ulek halus bahan-bahan bumbu kemudian sisihkan.\n2. Rebus ayam dengan sedikit air, bila sudah keluar hitam-hitamnya,baung airnya. Beri air baru, rebus sampai matang. Suwir-suwir ayam menggunakan garpu kemudian sisihkan.\n3. Tumis bumbu halus bersama daun salam dan daun jeruk hingga wangi. masukan ayam suwir, aduk rata. Tambahkan garam dan gula secukupnya. Beri air rebusan ayam, kecilkan api, aduk hingga bumbu meresap.\n4. Siap di sajikan.");
+            penjelasanLauk.setText("Isine penjelasan lauk mas. Copast yo di isi kanggo kabeh if");
             imgResep.setImageResource(R.drawable.ayam_suwir_pedas);
         } else if (pilihanResep.equalsIgnoreCase("Ayam Rica Rica")){
             bahanResep.setText("-Ayam 250gr\n-Lemon 1/2 buah\n-Bawang merah dan Bawang putih 3\n-Jahe\n-Tomat 1\n-Sere 2\n-Daun jeruk dan Daun bawang 2\n-Bumbu kaldu bubuk\n-Air 250ml\n-Cabe keriting 10\n-Cabe rawit 6");
