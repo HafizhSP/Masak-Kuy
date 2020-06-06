@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
@@ -37,83 +36,84 @@ public class bahanlauk_suggestion extends AppCompatActivity {
         //  Jika 'AYAM' maka isi dengan resep berbahan utama AYAM.
         if (onClikLauk.equalsIgnoreCase("ayam")){
             nama_lauk = new String[] {
-                    "Ayam","Telur"
+                    "Ayam Kecap","Ayam Suwir Pedas","Ayam Rica-Rica","Ayam Goreng","Ayam Betutu"
             };
             desc_lauk = new String[]{
-                    "Ayam Goreng Desc","Telur Goreng Desc"
+                    "Ayam Kecap Mantap","Ayam Suwir Pedas Sederhana","Ayam Rica-Rica Pedas Mampus","Ayam Goreng Khas Anak Kos","Ayam Betutu Termantap"
             };
             img_lauk = new String[]{
-                    Integer.toString(R.drawable.ayam_resep),Integer.toString(R.drawable.telur_resep)
+                    Integer.toString(R.drawable.ayamkecap),Integer.toString(R.drawable.ayam_suwir_pedas),Integer.toString(R.drawable.ayam_ricarica),
+                    Integer.toString(R.drawable.ayam_goreng),Integer.toString(R.drawable.ayam_betutu)
             };
         } else if (onClikLauk.equalsIgnoreCase("telur")){
             nama_lauk = new String[] {
-                    "Telur","Ayam"
+                    "Telur Kecap"
             };
             desc_lauk = new String[]{
-                    "Ayam Goreng Desc","Telur Goreng Desc"
+                    "Telur Kecap Sederhana Ala Anak Kos"
             };
             img_lauk = new String[]{
-                    Integer.toString(R.drawable.ayam_resep),Integer.toString(R.drawable.telur_resep)
+                    Integer.toString(R.drawable.telurkecap)
             };
         } else if (onClikLauk.equalsIgnoreCase("tahu")){
             nama_lauk = new String[] {
-                    "Tahu","Telur"
+                    "Tahu Mercon"
             };
             desc_lauk = new String[]{
-                    "Ayam Goreng Desc","Telur Goreng Desc"
+                    "Tahu Mercon Pedas Neraka"
             };
             img_lauk = new String[]{
-                    Integer.toString(R.drawable.ayam_resep),Integer.toString(R.drawable.telur_resep)
+                    Integer.toString(R.drawable.tahu_mercon)
             };
         } else if (onClikLauk.equalsIgnoreCase("ikan")){
             nama_lauk = new String[] {
-                    "Ikan","Telur"
+                    "Ikan Bumbu Kuning"
             };
             desc_lauk = new String[]{
-                    "Ayam Goreng Desc","Telur Goreng Desc"
+                    "Ikan Bumbu Kuning Simple"
             };
             img_lauk = new String[]{
-                    Integer.toString(R.drawable.ayam_resep),Integer.toString(R.drawable.telur_resep)
+                    Integer.toString(R.drawable.ikan_bumbu_kuning)
             };
         } else if (onClikLauk.equalsIgnoreCase("daging")){
             nama_lauk = new String[] {
-                    "Daging","Telur"
+                    "Daging Lada Hitam"
             };
             desc_lauk = new String[]{
-                    "Ayam Goreng Desc","Telur Goreng Desc"
+                    "Daging Lada Hitam Cocok Untuk Idul Adha"
             };
             img_lauk = new String[]{
-                    Integer.toString(R.drawable.ayam_resep),Integer.toString(R.drawable.telur_resep)
+                    Integer.toString(R.drawable.daging_lada_hitam)
             };
         } else if (onClikLauk.equalsIgnoreCase("udang")){
             nama_lauk = new String[] {
-                    "Udang","Telur"
+                    "Udang Balado"
             };
             desc_lauk = new String[]{
-                    "Ayam Goreng Desc","Telur Goreng Desc"
+                    "Udang Balado Pedas Untuk Makan Malam"
             };
             img_lauk = new String[]{
-                    Integer.toString(R.drawable.ayam_resep),Integer.toString(R.drawable.telur_resep)
+                    Integer.toString(R.drawable.udang_balado)
             };
         } else if (onClikLauk.equalsIgnoreCase("cumi")){
             nama_lauk = new String[] {
-                    "Cumi","Telur"
+                    "Cumi Hitam Pedas"
             };
             desc_lauk = new String[]{
-                    "Ayam Goreng Desc","Telur Goreng Desc"
+                    "Cumi Hitam Penuh Dosa"
             };
             img_lauk = new String[]{
-                    Integer.toString(R.drawable.ayam_resep),Integer.toString(R.drawable.telur_resep)
+                    Integer.toString(R.drawable.cumi_hitam)
             };
         } else if (onClikLauk.equalsIgnoreCase("tempe")){
             nama_lauk = new String[] {
-                    "Tempe","Telur"
+                    "Tempe Penyet"
             };
             desc_lauk = new String[]{
-                    "Ayam Goreng Desc","Telur Goreng Desc"
+                    "Tempe Penyet Pedas Nikmat"
             };
             img_lauk = new String[]{
-                    Integer.toString(R.drawable.ayam_resep),Integer.toString(R.drawable.telur_resep)
+                    Integer.toString(R.drawable.tempe_penyet)
             };
         }
 
