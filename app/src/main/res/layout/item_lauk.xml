@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:background="#75a0ff2d">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:id="@+id/imgLauk"

@@ -58,5 +58,8 @@
         <item name="android:layout_marginLeft">16dp</item>
         <item name="android:layout_marginBottom">16dp</item>
     </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+    </style>
 
 </resources>
