@@ -6,7 +6,7 @@ Pengguna dapat dengan mudah melihat resep-resep menarik dari bahan-bahan yang da
 
 
 
-# :computer: Piece of App
+# :computer: Pieces of App
 ![alt text](https://i.ibb.co/VNDdCCd/1.jpg) 
 ![alt text](https://i.ibb.co/DD10vk7/2.jpg) 
 
